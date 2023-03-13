@@ -558,7 +558,7 @@
 - [参数传递](###参数传递)节给出了参数传递、调用返回值保存时的具体寄存器调用规范。也可参考[样例](###示例1)对寄存器的使用；
 
 - 表中Name为寄存器名，Alias为别名，便于理解和记忆，在汇编程序中可使用寄存器名、也可使用对应的别名来指代相应寄存器。
-- Preserved across calls表示函数调用过程中是否需要由调用者保存，Unused表示该寄存器不应该被汇编代码修改；Yes表示应该由调用者保存；No表示不需要由调用者保存。
+- Preserved across calls表示函数调用过程中是否需要由调用者保存，Unused表示该寄存器不应该被汇编代码修改；No表示应该由调用者保存；Yes表示不需要由调用者保存。
    <table>
     <tr>
         <th>Name</th><th>Alias</th><th>Usage</th><th>Preserved across calls</th>
